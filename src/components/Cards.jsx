@@ -5,7 +5,8 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 
-const Cards = () => {
+const Cards = (props) => {
+  
   return (
     <div>
       <Card sx={{ maxWidth: 345 }}>
@@ -13,7 +14,7 @@ const Cards = () => {
           <CardMedia
             component='img'
             height='140'
-            image='/static/images/cards/contemplative-reptile.jpg'
+            image='https://i.pinimg.com/564x/de/0b/f2/de0bf2a2dcae9b08abae22f2ad5a2684.jpg'
             alt='green iguana'
           />
           <CardContent>
